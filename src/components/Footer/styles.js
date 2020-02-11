@@ -6,17 +6,30 @@ import { breakpoints } from '../../utils/styles'
 export const Wrapper = styled.div`
   background: #0f0f0f;
   color: rgba(200,200,200,.8);
-  
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 2.45rem;
+  flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 `
 
-export const Container = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 1.45rem;
-  margin: 0 auto;
-  max-width: 960px;
+export const MenuList = styled.ul`
+    color: ghost;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: inline-flex;
+    flex-direction: column;
+
+    li {
+        margin: 0;
+        padding: .45rem;
+    }
 `
+
+
 
 export const MenuLink = styled(Link)`
   color: white;

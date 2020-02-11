@@ -2,6 +2,13 @@ import styled from '@emotion/styled'
 
 import { breakpoints } from '../../utils/styles'
 
+export const Wrapper = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0px 1.0875rem 1.45rem;
+  margin-bottom: 1.45rem;
+  margin-top:1.45rem;
+`
 
 export const Grid = styled.div`
   display: grid;

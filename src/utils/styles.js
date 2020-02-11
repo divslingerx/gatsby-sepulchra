@@ -16,6 +16,7 @@ export const GlobalStyle = props => (
     styles={css`
       body {
         margin: 0;
+        background: #f6f5f8;
       }
       html {
         font-family: sans-serif;
@@ -41,6 +42,8 @@ export const Img = styled(Image)`
 export const Container = styled.div`
   margin: 0 auto;
   max-width: 960px;
+  padding-top: 1.45rem;
+  padding-bottom: 1.45rem;
 `
 
 export const TwoColumnGrid = styled.div`
